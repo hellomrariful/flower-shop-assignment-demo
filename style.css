@@ -9,10 +9,16 @@
     background: #E55473;
     color: white;
     border: none;
+    font-size: 23px;
+    padding: 20px 43px;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.text-color {
+    color: #E55473;
 }
 
 /* nav section */
@@ -65,8 +71,6 @@ body {
 
 .btn-shop {
     margin-bottom: 150px;
-    padding: 20px 43px;
-    font-size: 20px;
 }
 
 /* This is main section */
@@ -154,9 +158,8 @@ body {
 
 /* service section start */
 .service-container {
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 320px;
     width: 1440px;
@@ -166,23 +169,78 @@ body {
     margin-bottom: 128px;
     margin-left: auto;
     margin-right: auto;
-
-
-
 }
 
 .service {
-    /* display: flex; */
-    /* align-items: center; */
-    /* margin-top: 200px; */
-    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    display: block;
+}
 
+.service-icon-01 {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 24px;
+    margin-left: 33%;
+}
 
+.service-icon-02 {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 24px;
+    margin-left: 33%;
 
 }
 
-.service-icon-01 {}
+.service-icon-03 {
+    width: 88px;
+    height: 88px;
+    margin-bottom: 24px;
+    margin-left: 33%;
+}
 
-.service-icon-02 {}
+.service-title {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
 
-.service-icon-03 {}
+/* hot deal section */
+.discount-container {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.discount-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 32px;
+}
+
+.btn-shop{
+padding: 20px 43px;
+gap: 10px;
+
+}
